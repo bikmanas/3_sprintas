@@ -1,0 +1,20 @@
+{
+  "name": "pbikm/3_sprintas",
+  "description": "Third practice project",
+  "authors": [
+    {
+      "name": "Povilas",
+      "email": "p.bikmanas@gmail.com"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "^2.9",
+    "symfony/cache": "^5.3"
+  },
+  "autoload": {
+    "files": [
+      "src/models/Employees.php",
+      "src/models/Projects.php"
+    ]
+  }
+}
